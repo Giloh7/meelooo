@@ -1,0 +1,39 @@
+body {
+  background-color:black;
+  color:white;
+}
+.content {
+  min-height: 100vh;
+  font-family: 'Codystar';
+  font-size: 28px;
+}
+.footer {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 15px;
+  height: 25px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+#start, marquee.button, div.button {
+  cursor: pointer;
+}
+
+#start:hover, div.button:hover, marquee.button:hover {
+    color: magenta
+}
+
+div.button {
+  text-align: center;
+}
+
+marquee, div.button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
